@@ -25,3 +25,9 @@ They give a illustration of whats going on based on commits and their IDs. This 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 When merging two branches together you combine a smaller branch with a main or master branch. This newly formed link is represented in the diagram to keep a track of all commits on the newly merged branch, whilst also showing how the branches existed pre-merge.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is a fast process which shows you any conflicts which is very useful. 
+
