@@ -21,3 +21,7 @@ How do the diagrams help you visualize the branch structure?
 
 They give a illustration of whats going on based on commits and their IDs. This is very useful to stop you losing track of any commits or branches and allows you to map out the commits to work out if they're in the correct place and will be included on a branch.
 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When merging two branches together you combine a smaller branch with a main or master branch. This newly formed link is represented in the diagram to keep a track of all commits on the newly merged branch, whilst also showing how the branches existed pre-merge.
