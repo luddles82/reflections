@@ -1,0 +1,59 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It was a simple and easy way of comparing two files to fault find. No plugins, no nothing. It could not be simpler :-)
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You can easily take steps back if bugs are added in current or nearly current versions.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros
+You will have a logical number of files to pick back through
+You are able to 
+
+Cons
+You might forget and end up missing 
+You could wait too long to save
+You could commit too soon and end up with loads of confusing versions of a file
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+If you are working on a project then you will want to update all changes to all files as the files will probably be interlinked, you can't change just one. Unlike Google docs where if you change one file thats file as the chances this will have a functional connection to others is minimal.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+After cloning a respository you can easily see what commits have been made using git log (remember to use teh color command and to arrow UP and DOWN so you don't miss any commits in the terminal window). Git Log allows you to see a brief description of the changes made in each commit but more usefully git diff allows you to compare the lines of code deleted and added in two commits. Remember that the most recent commits appear at the top of the list so if you're comparing the previosu to the current go for the one below to diff it with.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Providing I'd made the right number of commits I would be more than happy to break the hell out of a page or repository, I could use git checkout very easily to get back to a working version, then git diff to find the exact place where an error had been made.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+EVERYTHING!!! Well not everything but I think launching sublime from the command line is useful as are all the git commands (diff, log, clone etc). So next I would like to use it to create and upload a repository.
+
+What happens when you initialize a repository? Why do you need to do it?
+
+When you run git init in a folder through terminal you create an empty repository, totally empty and devoid of commits. You can check this using git log and git status. Its so empty you get a head error message.
+
+
+
+
+
+----Concept Notes-----
+
+Verison Control > GIT > Commit > GIT LOG or GIT DIFF
+
+gitlog --stat for stats  +'s for changes
+
+One commit per logical change
+
+Tracking across multiple files e.g. HTML and CSS files for a page
+Commits to multiple files what GIT's all about!
+
