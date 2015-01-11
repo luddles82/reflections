@@ -11,3 +11,8 @@ Its the middle man. You are able to commit to the idea of one logical change per
 How can you use the staging area to make sure you have one commit per logical change?
 
 Use git status to make sure you know what files you have changed and then git diff to double check the differences, then use git add, ading one file at a time to the staging area!
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If there are multiple versions needed of a file like if you wanted to have different difficulty levels on a game or if you wanted to have different language versions of a page. The branch would allow you to create a whole sub area for this page(s) or file(s) to exist in, so changes could be made without effecting the main page or file on the mater branch.
+
