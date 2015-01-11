@@ -2,7 +2,12 @@ What happens when you initialize a repository? Why do you need to do it?
 
 When you run git init in a folder through terminal you create an empty repository, totally empty and devoid of commits. You can check this using git log and git status. Its so empty you get a head error message.
 
+
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Its the middle man. You are able to commit to the idea of one logical change per commit, you are able add files one at a time and then bundle them into one commit to the repository. You can follow the sequence of making changes to files in the working directory, git add the file or files to the staging area, git status and then commit your changed files to the respository!
 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Use git status to make sure you know what files you have changed and then git diff to double check the differences, then use git add, ading one file at a time to the staging area!
