@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+It would be really useful to use a remote repository on github if you were away from your workspace in terminal and still wanted to update a repository.
+You would be able to edit and update your repository with files. 
+Also if you were working in a group it and wanted to share files or transfer them to your repository from someone else's you would use a remote.
