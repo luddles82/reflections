@@ -16,3 +16,8 @@ What are some situations when branches would be helpful in keeping your history 
 
 If there are multiple versions needed of a file like if you wanted to have different difficulty levels on a game or if you wanted to have different language versions of a page. The branch would allow you to create a whole sub area for this page(s) or file(s) to exist in, so changes could be made without effecting the main page or file on the mater branch.
 
+
+How do the diagrams help you visualize the branch structure?
+
+They give a illustration of whats going on based on commits and their IDs. This is very useful to stop you losing track of any commits or branches and allows you to map out the commits to work out if they're in the correct place and will be included on a branch.
+
