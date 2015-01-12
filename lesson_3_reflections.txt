@@ -8,3 +8,7 @@ Why might you want to always pull changes manually rather than having Git automa
 To stay in control of what version of the file is current locally and on the remote, you wouldn’t want it automatically pushing and pulling, should lead to all kind of problems and unneeded commits and would make git merge a potential nightmare of errors.
 
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks allow you to copy a repository on github, clones allow you to copy a repository from github to your local machine and branches are structural allow you to keep your workflow as simple or complicated as your project needs or your brain tells you to. Forks allow collaboration with others so you'd use a fork if a group of people were all working on the same project files.
+
