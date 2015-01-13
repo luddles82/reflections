@@ -12,3 +12,9 @@ Describe the differences between forks, clones, and branches. When would you use
 
 Forks allow you to copy a repository on github, clones allow you to copy a repository from github to your local machine and branches are structural allow you to keep your workflow as simple or complicated as your project needs or your brain tells you to. Forks allow collaboration with others so you'd use a fork if a group of people were all working on the same project files.
 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can easily cross reference the copies and if needs be revert to it. Also if collaborating you can use it as a base to work from then merge at a later point.
+
+
