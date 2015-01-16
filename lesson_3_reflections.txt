@@ -17,8 +17,14 @@ What is the benefit of having a copy of the last known state of the remote store
 
 You can easily cross reference the copies and if needs be revert to it. Also if collaborating you can use it as a base to work from then merge at a later point.
 
+
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 You could collaborate using a shared file on something like google docs. The advantage would be a lack of a need to go through the Git commands and use GitHub. However you would not have the advantages of being able to work on seperate branches, merge files and find out where any conflicts appeared very easily.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You may want to make a change on a seperate branch when you are working on a foreign language version your project or site. Those changes would be specific to that site only and not relevant to the main  site. Keeping branches seperate means that they can be played with wothout fear of affecting the main branch in any way, this could be really useful! On the other hand, if you chose to work on a branch instead of master for an extended period you may end up slipping up on a lot of conflicts if you merge and this could take a very long time to unpick.
 
 
